@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register with us</title>
+  </head>
+  <body>
+    <!-- Ordered List with Roman Numerals -->
+
+    <section id="passion">
+      <h2>WE ARE PASSIONATE ABOUT</h2>
+      <ol type="I">
+        <li>EDUCATION</li>
+        <li>GENDER</li>
+        <li>LEADERSHIP</li>
+      </ol>
+    </section>
+
+    <!-- External Image -->
+    <section>
+      <h2>OUR WORLD</h2>
+      <img
+        src="https://images.pexels.com/photos/30327303/pexels-photo-30327303/free-photo-of-candlelit-prayers-in-ethiopian-church.jpeg?auto=compress&cs=tinysrgb&w=600"
+        alt="African child"
+        width="600"
+      />
+    </section>
+
+    <!-- Contacts Table -->
+    <section>
+      <h2>Important connections</h2>
+      <table>
+        <tr>
+          <th>Name</th>
+          <th>Address</th>
+          <th>Mobile</th>
+          <th>Email</th>
+        </tr>
+        <tr>
+          <td>James Gichuhi</td>
+          <td>123 Elm Street</td>
+          <td>+123456789</td>
+          <td>james@example.com</td>
+        </tr>
+        <tr>
+          <td>Jane Wekesa</td>
+          <td>456 Oak Avenue</td>
+          <td>+987654321</td>
+          <td>jane@example.com</td>
+        </tr>
+        <tr>
+          <td>Michael B. Jordan</td>
+          <td>789 Pine Road</td>
+          <td>+1122334455</td>
+          <td>michael@example.com</td>
+        </tr>
+        <tr>
+          <td>Emily Chepchumba</td>
+          <td>321 Birch Lane</td>
+          <td>+2233445566</td>
+          <td>emily@example.com</td>
+        </tr>
+        <tr>
+          <td>David Sitienei</td>
+          <td>654 Maple Blvd</td>
+          <td>+3344556677</td>
+          <td>david@example.com</td>
+        </tr>
+      </table>
+    </section>
+    <!-- Registration Form -->
+    <section>
+      <h2>Register with us</h2>
+      <form action="#" method="POST">
+        <label for="name">Full Name:</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter your full name"
+          required
+        /><br /><br />
+
+        <label for="email">Email:</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          required
+        /><br /><br />
+
+        <label for="password">Password:</label>
+        <input
+          type="password"
+          id="password"
+          name="password"
+          placeholder="Enter password"
+          required
+          minlength="6"
+        /><br /><br />
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required /><br /><br />
+
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required />
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female" />
+        <label for="female">Female</label>
+        <input type="radio" id="other" name="gender" value="other" />
+        <label for="other">Other</label><br /><br />
+
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+          <option value="">Select your country</option>
+          <option value="kenya">Kenya</option>
+          <option value="usa">USA</option>
+          <option value="uk">UK</option>
+          <option value="canada">Canada</option></select
+        ><br /><br />
+
+        <label>Interests:</label><br />
+        <input type="checkbox" id="coding" name="interests" value="coding" />
+        <label for="coding">Coding</label>
+        <input type="checkbox" id="sports" name="interests" value="sports" />
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="music" name="interests" value="music" />
+        <label for="music">Music</label><br /><br />
+
+        <input type="submit" value="Register" />
+      </form>
+    </section>
+  </body>
+</html>
